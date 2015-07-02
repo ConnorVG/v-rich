@@ -1,0 +1,15 @@
+{
+	"build_systems":
+	[
+		{
+			"name": "Run LÖVE",
+			"shell_cmd": "\"%LOVE_EXECUTABLE%\" \"${project_path}/builds/love\""
+		}
+	],
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	]
+}
