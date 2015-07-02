@@ -1,15 +1,16 @@
 {
-	"build_systems":
-	[
-		{
-			"name": "Run LÖVE",
-			"shell_cmd": "\"%LOVE_EXECUTABLE%\" \"${project_path}/builds/love\""
-		}
-	],
 	"folders":
 	[
 		{
 			"path": "."
 		}
-	]
+	],
+  "build_systems":
+  [
+    {
+      "name": "Run LÖVE",
+      "working_dir": "${project_path}",
+      "shell_cmd": "\"%LOVE_EXECUTABLE%\" \"${project_path}/builds/love\""
+    }
+  ]
 }
